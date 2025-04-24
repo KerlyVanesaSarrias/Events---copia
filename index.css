@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    padding: 6rem;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: blueviolet;
+  }
+  
+  form {
+    background-color: #b491c4;
+    border: 1px solid #c130e6;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #833a99;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  
+
+  
+
+  ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+  }
+  
+  .tarea-item {
+    background-color: #b491c4;
+   
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #c130e6;
+    border-radius: 6px;
+  }
+  
+  .tarea-contenido {
+    max-width: 85%;
+    cursor: pointer;
+  }
+  
+  .tarea-contenido.completada {
+    text-decoration: line-through;
+    color: red;
+  }
