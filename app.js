@@ -17,6 +17,7 @@ function obtenerTareas() {
 
 
 function mostrarTareas() {
+  listaTareas.innerHTML = "";
   const tareas = obtenerTareas()
   tareas.forEach((tarea, index) => {
     const li = document.createElement("li")
@@ -67,7 +68,7 @@ btnAgregar.addEventListener("click", (e) => {
   inputDescripcion.value = ""
 });
 
- 
+
 
 EliminarTodo.addEventListener("click", () => {
   const tareas = obtenerTareas()
